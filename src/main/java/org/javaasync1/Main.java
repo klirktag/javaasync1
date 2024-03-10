@@ -36,6 +36,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
+        // See README.md for good tutorials on HttpClient
+
         System.out.printf("Hello and welcome!");
         HttpClient client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_1_1)
