@@ -6,3 +6,8 @@
 - https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html
 
 - https://stackoverflow.com/questions/3142915/how-do-you-create-an-asynchronous-http-request-in-java
+
+
+# XML parsing
+
+- https://www.tutorialspoint.com/java_xml/java_dom_parse_document.htm
