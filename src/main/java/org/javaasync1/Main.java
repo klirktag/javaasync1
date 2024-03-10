@@ -1,15 +1,10 @@
 package org.javaasync1;
 
-import java.net.Authenticator;
-import java.net.InetSocketAddress;
-import java.net.ProxySelector;
 import java.net.URI;
-import java.net.http.HttpRequest;
 import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.nio.file.Paths;
 import java.time.Duration;
-import java.util.function.Consumer;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -20,6 +15,7 @@ public class Main {
         System.out.println("myfunc");
         System.out.println(input);
     }
+
     public void syncHttp() throws Exception {
         HttpClient client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_1_1)
@@ -38,6 +34,7 @@ public class Main {
         System.out.println(response.statusCode());
         System.out.println(response.body());
     }
+
     public static void main(String[] args) throws Exception {
         System.out.printf("Hello and welcome!");
         HttpClient client = HttpClient.newBuilder()
