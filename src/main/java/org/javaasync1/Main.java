@@ -47,6 +47,8 @@ public class Main {
 
         // Inspired by
         // https://stackoverflow.com/questions/3142915/how-do-you-create-an-asynchronous-http-request-in-java
+
+        // Manifest file for https://www.svtplay.se/video/eE373M7/mastarnas-mastare/avsnitt-5?id=eE373M7
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://ed0-as2119.cdn.svt.se/ed4/d0/se/20240229/809c32a2-7747-4493-ad94-d244dd305517/dash-full.mpd"))
                 .timeout(Duration.ofMinutes(2))
