@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="405e8ffb-af3e-4d68-8778-76d292cff0d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaasync1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaasync1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.javaasync1.Main" />
+      <module name="java-async1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,7 +65,7 @@
       <updated>1710096833292</updated>
       <workItem from="1710096834302" duration="811000" />
       <workItem from="1710097654379" duration="3410000" />
-      <workItem from="1710101100683" duration="310000" />
+      <workItem from="1710101100683" duration="1627000" />
     </task>
     <servers />
   </component>
